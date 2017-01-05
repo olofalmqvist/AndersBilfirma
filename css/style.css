@@ -1,0 +1,200 @@
+html { 
+    background: url("../img/background.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+form input {
+    outline: none;
+}
+
+textarea {
+    resize: none;
+    outline: none;
+}
+
+.btn {
+	background-color: #e6e6e6;
+    color: black;
+	border:2px solid #000000;
+	cursor:pointer;
+	font-size: 22px;
+    font-weight: 400;	
+    text-align: center;
+    height: 40px;
+    padding: 4px;
+}
+
+.btn:hover {
+    color: white;
+    background-color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+body h1 {
+    text-align: center;
+}
+
+h1 {
+    margin-top: 5%;
+    color: white;
+    text-shadow: 2px 2px black;
+    font-size: 60px;
+    
+}
+
+#loginForm, #registerForm {
+    border-radius: 4px;
+    background-color: white;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#loginForm button, #registerForm button {
+    padding: 15px;
+    width: 50%;
+    margin-top: 0;
+    font-size: 24px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 5px;
+    border: 0px;
+    background-color: white;
+}
+
+button.active {
+    color: black;
+}
+
+button.disabled {
+    background-color: lightgray;
+    color: gray;
+    cursor: pointer;   
+}
+
+#loginForm input[type="text"], #loginForm input[type="password"], #registerForm input[type="text"], #registerForm input[type="password"] {
+    width: 390px;
+    height: 50px;
+    position: relative;
+    margin-left: -40px;
+    padding-left: 5px;
+    font-size: 16px;
+    border: 0px;
+    border-top : 0.5px solid lightgray;
+    border-bottom : 0.5px solid lightgray;
+}
+
+#loginForm input[type="submit"], #registerForm input[type="submit"] {
+    width: 400px;
+    height: 50px;
+    position: relative;
+    margin-left: -40px;
+    padding-left: 5px;
+    font-size: 16px;
+    border: 0px;
+    background-color: green;
+    color: white;
+}
+
+#loginForm input[type="submit"]:hover, #registerForm input[type="submit"]:hover {
+    background-color: springgreen;
+    color: white;
+}
+
+#guestBook {
+    position: relative;
+    top:10px;
+    left:0;
+    right:0;
+    width: 500px;
+    min-height: 300px;
+    padding: 20px;
+    background-color: #e6e6e6;
+    border-radius: 3px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+#comment {
+    background-color: white;
+    border: 0.5px solid #000000;
+    height: 155px;
+    margin-top: -10px;
+}
+
+#comment #hr_up {
+    position: relative;
+    top: 20px;
+    left: 5px;
+    width: 95%;
+}
+
+#comment textarea[name=text] { 
+    position: relative;
+    padding: 5px;
+    width: 430px;
+    font-size: 14px;
+    border: 0px;
+    top: 30px;   
+    margin-left: 30px;
+}
+
+#comment #hr_down {
+    position: relative;
+    top: 30px;
+    left: 5px;
+    width: 95%;
+}
+
+#comment #postForm input[name=commentBtn] {
+    position: relative;
+    left: 400px;
+    top: 30px;
+    height: 25px;
+    padding: 1px;
+    font-size: 15px;
+}
+
+.comment_box {
+    background-color: white;
+    border: 0.5px solid #000000;
+    margin-top: 10px;
+}
+
+.comment_box .comment_name {
+    position: relative;
+    left: 10px;
+    color: cornflowerblue;
+    font-size: 20px;
+}
+
+.comment_box .comment_time {
+    position: relative;
+    left: 420px;
+    font-size: 10px;
+    color: gray;
+    margin-top: -50px;
+}
+
+.comment_box .comment_text {
+    position: relative;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: justify;
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin-top: 40px;
+}
+
+#logoutBtn {
+    position: fixed;
+    top: 30px;
+    right: 30px;
+}
